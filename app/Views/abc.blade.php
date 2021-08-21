@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>誕生日まで何日</title>
-</head>
-<body>
+@extends('layouts.base')
+
+@section('title', 'あなたは誰？')
+
+@section('content')
  <form action="../Api/who_am_i_api.php" method="POST">
    <div><span>名前: </span><input type="text" name="name" required></div>
    <div>
@@ -16,6 +12,6 @@
     <input type="number" name="birth_day" placeholder="日" min="1" max="31" required>
    </div>
    <div><input type="submit" value="送信"></div>
+   {{$msg}}
  </form>
-</body>
-</html>
+@endsection
