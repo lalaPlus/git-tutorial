@@ -6,6 +6,20 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab
 {
+    public static $prefixLengthsPsr4 = array (
+        'e' => 
+        array (
+            'eftec\\bladeone\\' => 15,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'eftec\\bladeone\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/eftec/bladeone/lib',
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
@@ -13,6 +27,8 @@ class ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab::$classMap;
 
         }, null, ClassLoader::class);
