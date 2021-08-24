@@ -1,5 +1,8 @@
 {
     "require": {
         "eftec/bladeone": "^3.52"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
