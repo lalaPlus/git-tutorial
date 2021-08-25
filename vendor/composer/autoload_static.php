@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab
 {
     public static $files = array (
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     );
 
@@ -25,6 +25,11 @@ class ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'Test\\Library\\' => 13,
+            'Test\\' => 5,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
@@ -34,10 +39,18 @@ class ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
         ),
+        'L' => 
+        array (
+            'Library\\' => 8,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
+        ),
+        'A' => 
+        array (
+            'Api\\' => 4,
         ),
     );
 
@@ -45,8 +58,8 @@ class ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'eftec\\bladeone\\' => 
         array (
@@ -55,6 +68,14 @@ class ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Test\\Library\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/test/Library',
+        ),
+        'Test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/test',
         ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
@@ -68,6 +89,10 @@ class ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
+        'Library\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/Library',
+        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
@@ -75,6 +100,10 @@ class ComposerStaticInit7a9b05781e4ccd5bfd4b92cecad258ab
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Api\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/Api',
         ),
     );
 
