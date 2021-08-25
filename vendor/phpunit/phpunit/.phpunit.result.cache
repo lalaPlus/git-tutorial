@@ -1,0 +1,1 @@
+{"version":1,"defects":{"SampleTest::testHello":4,"GuestTest::testHello":4,"Test\\Library\\SampleTest::testHello":4,"Test\\Library\\GuestTest::testHello":3},"times":{"SampleTest::testHello":0.003,"GuestTest::testHello":0.002,"Test\\Library\\SampleTest::testHello":0.003,"Test\\Library\\GuestTest::testHello":0.003}}

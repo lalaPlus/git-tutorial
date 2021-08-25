@@ -1,5 +1,16 @@
 {
     "require": {
         "eftec/bladeone": "^3.52"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+     "psr-4": {
+      "Api\\": "app/Api/",
+      "Library\\": "app/Library/",
+      "Test\\": "test/",
+      "Test\\Library\\": "test/Library"
+     }
     }
 }
