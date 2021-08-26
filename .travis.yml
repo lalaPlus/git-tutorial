@@ -1,4 +1,7 @@
 language: php
 php:
- - '7.0'
-	- '8.0'
+ - '7.3'
+ - '7.4'
+ - '8.0'
+ - hhvm
+script: vendor/bin/phpunit ./test/Library/GuestTest.php
