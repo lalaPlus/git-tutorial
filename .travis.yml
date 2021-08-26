@@ -4,4 +4,4 @@ php:
  - '7.4'
  - '8.0'
  - hhvm
-script: vendor/bin/phpunit ./test/Library/GuestTest.php
+script: vendor/bin/phpunit
