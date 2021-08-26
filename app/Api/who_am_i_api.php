@@ -3,7 +3,6 @@
  namespace Api;
 
  require_once '../Library/e.php';
- require_once '../Library/Guest.php';
  require_once '../../vendor/autoload.php';
 
  use Library\Guest;
