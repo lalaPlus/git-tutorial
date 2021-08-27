@@ -4,3 +4,4 @@ php:
  - '7.4'
  - '8.0'
  - hhvm
+script: phpunit ./test/Library/GuestTest.php
